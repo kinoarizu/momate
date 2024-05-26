@@ -1,46 +1,36 @@
-# Getting Started with Create React App
+# Momate
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Momate** is a browser extension that is used to help automatically track episodes/movies between movie tracking services and various movie streaming platforms.
 
-## Available Scripts
+Movie tracking system is key function to help users keep track of their movie-watching habits and discover new content. In this case, Momate helps tracking automatically without requiring users to input tracking manually on the tracking platform. Users only need to complete the minimum criteria for the duration of the film being watched, so Momate will work automatically to carry out tracking.
 
-In the project directory, you can run:
+### How This Works
+![Alt text](https://ucarecdn.com/27d138be-dfb3-4dbc-85ab-debb0cfdd240/MomateRawDesign.jpg "a title")
 
-### `npm start`
+- Users are required to authorized by binding their tracking service account
+- During watching, Momate will simultaneously carry out a DOM crawling process to obtain movie information and control watch progress
+- When the progress watching has reached around 80-90% of the movie duration, Momate will trigger complete record to tracking service api
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Momate has heavy dependency on 3rd-party applications, so open source is needed to open up user contributions to fix 3rd-party integration failures.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### **Supported Platforms** <a id="anchor-link"></a>
+  <table>
+    <thead>
+      <tr>
+        <th>Streaming Platform</th>
+        <th>Tracking Service</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+          <td><a href="https://netflix.com"><img src="https://favicon.malsync.moe/?domain=https://netflix.com"> Netflix</a></td>
+          <td><a href="https://simkl.com"><img src="https://favicon.malsync.moe/?domain=https://www.mangadex.org"> SIMKL</a></td>
+        </tr>
+    </tbody>
+  </table>
 
-### `npm test`
+### **Download**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+[![Chrome](https://img.shields.io/chrome-web-store/users/kekjfbackdeiabghhcdklcdoekaanoel.svg?style=flat-square&label=Chrome&logo=google%20chrome&logoColor=white)](#)
+[![Firefox](https://img.shields.io/amo/users/mal-sync.svg?style=flat-square&label=Firefox&logo=mozilla%20firefox&logoColor=white)](#)
+[![Userscript](https://img.shields.io/badge/Userscript-Download-brightgreen.svg?style=flat-square&label=Userscript&logo=javascript&logoColor=white)](#)
