@@ -24,7 +24,7 @@ Momate has heavy dependency on 3rd-party applications, so open source is needed 
     <tbody>
       <tr>
           <td><a href="https://netflix.com"><img src="https://favicon.malsync.moe/?domain=https://netflix.com"> Netflix</a></td>
-          <td><a href="https://simkl.com"><img src="https://favicon.malsync.moe/?domain=https://www.mangadex.org"> SIMKL</a></td>
+          <td><a href="https://simkl.com"><img width="20" src="https://cdn6.aptoide.com/imgs/b/b/8/bb8ef66f099e698b0604b2e1765c2670_icon.png"> SIMKL</a></td>
         </tr>
     </tbody>
   </table>
