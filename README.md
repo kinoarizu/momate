@@ -34,3 +34,6 @@ Momate has heavy dependency on 3rd-party applications, so open source is needed 
 [![Chrome](https://img.shields.io/chrome-web-store/users/kekjfbackdeiabghhcdklcdoekaanoel.svg?style=flat-square&label=Chrome&logo=google%20chrome&logoColor=white)](#)
 [![Firefox](https://img.shields.io/amo/users/mal-sync.svg?style=flat-square&label=Firefox&logo=mozilla%20firefox&logoColor=white)](#)
 [![Userscript](https://img.shields.io/badge/Userscript-Download-brightgreen.svg?style=flat-square&label=Userscript&logo=javascript&logoColor=white)](#)
+
+### Credit
+Project architecture based on [Bulletproof React](https://github.com/alan2207/bulletproof-react)
