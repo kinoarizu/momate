@@ -36,4 +36,5 @@ Momate has heavy dependency on 3rd-party applications, so open source is needed 
 [![Userscript](https://img.shields.io/badge/Userscript-Download-brightgreen.svg?style=flat-square&label=Userscript&logo=javascript&logoColor=white)](#)
 
 ### Credit
-Project architecture based on [Bulletproof React](https://github.com/alan2207/bulletproof-react)
+- The project inspired from [MALSync](https://github.com/MALSync/MALSync)
+- Project architecture based on [Bulletproof React](https://github.com/alan2207/bulletproof-react)
