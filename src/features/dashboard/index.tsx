@@ -6,14 +6,13 @@ import {
   CardBody,
   Center,
   Flex,
-  GenericAvatarIcon,
   Heading,
   Spacer,
   Text,
 } from "@chakra-ui/react";
 
 export default function Dashboard() {
-  const isSIMKLAuthorized = true;
+  const isSIMKLAuthorized = false;
 
   return (
     <Box width="40rem" p={6}>
@@ -23,7 +22,10 @@ export default function Dashboard() {
         </Box>
         <Spacer />
         <ButtonGroup gap="2">
-          <Button colorScheme="blue" isDisabled={isSIMKLAuthorized}>
+          <Button
+            colorScheme={isSIMKLAuthorized ? "green" : "blue"}
+            isDisabled={isSIMKLAuthorized}
+          >
             {isSIMKLAuthorized ? "Username SIMKL" : "Authorize SIMKL Account"}
           </Button>
         </ButtonGroup>
