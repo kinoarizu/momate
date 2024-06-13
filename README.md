@@ -1,4 +1,4 @@
-# Momate
+# Momate (Development 🚧)
 
 **Momate** is a browser extension that is used to help automatically track episodes/movies between movie tracking services and various movie streaming platforms.
 
